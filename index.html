@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Sew club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="userbar">
+        <ul class="userbar__navigation">
+            <li class="userbar__navigation_point">
+                <a href="#" class="userbar__navigation_link">
+                    <img src="img/Entrance.svg" alt="">
+                    Вход
+                </a>
+            </li>
+            <li class="userbar__navigation_point">
+                <a href="#" class="userbar__navigation_link">
+                    <img src="img/Favourites.svg" alt="">
+                    Избранное
+                </a>
+            </li>
+            <li class="userbar__navigation_point">
+                <a href="#" class="userbar__navigation_link">
+                    <img src="img/Comparisson.svg" alt="">
+                    Сравнение
+                </a>
+            </li>
+        </ul>
+        <ul class="userbar__social">
+            <li class="userbar__social_network">
+                <a href="#" class="userbar__social_networkicon" title="Vkontakte">
+                    <img src="img/vkicon.svg" alt="">
+                </a>
+            </li>
+            <li class="userbar__social_network">
+                <a href="#" class="userbar__social_networkicon" title="Facebook">
+                    <img src="img/fbicon.svg" alt="">
+                </a>
+            </li>
+            <li class="userbar__social_network">
+                <a href="#" class="userbar__social_networkicon" title="Twitter">
+                    <img src="img/twittericon.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="header">
+        <a class="header__logo">
+            <img src="img/logo.svg" alt="Logo">
+            <div class="header__logo_headings">
+                <p class="logo__sitetitle">SEW-CLUB.BY</p>
+                <p class="logo__siteslogan">sewing club Belarus</p>
+            </div>
+        </a>
+        <div class="header__interfaces">
+            <div class="header__interfaces_contacts">
+                <address class="interfaces__contacts_phone">
+                    <img src="img/phoneicon.svg" alt="Phone">
+                    <a href="tel:80293332211" title="Phone us">8(029)333-22-11</a>
+                </address>
+                <address class="interfaces__contacts_email">
+                    <img src="img/emailicon.svg" alt="Email">
+                    <a href="mailto:info@sewclub.by" title="Email us">info@sewclub.by</a>
+                </address>
+            </div>
+            <form method="GET" class="header__interfaces_searchstring">
+                <input type="text" title="Поиск" placeholder="Введите поисковую фразу" name="searchstring">
+                <button type="submit" name="searchbutton">
+                    <img src="img/searchicon.svg" alt="Поиск">
+                </button>
+            </form>
+        </div>
+        <div class="header__basket">
+            <p class="header__basket_totalcost">7500 р.</p>
+            <a href="#" title="Корзина">
+                <img src="img/basketicon.svg" alt="">
+            </a>
+            <span class="header__basket_goodscount">2</span>
+        </div>
+    </div>
+    <nav class="mainmenu">
+        <a href="#" class="mainmenu__menupoint" title="Главная">Главная</a>
+        <a href="#" class="mainmenu__menupoint" title="Каталог">Каталог</a>
+        <a href="#" class="mainmenu__menupoint" title="Галерея">Галерея</a>
+        <a href="#" class="mainmenu__menupoint" title="Акции">Акции</a>
+        <a href="#" class="mainmenu__menupoint" title="Контакты">Контакты</a>
+    </nav>
+    <div class="generalcontainer">
+        <main class="generalcontainer__mainblock">
+
+            <div class="generalcontainer__mainblock_slider"></div>
+
+            <div class="generalcontainer__mainblock_tradeselections">
+                <div class="mainblock__tradeselections_trdselection">
+                    <div class="trdselection__headings">
+                        <img src="img/cardicon.svg" alt="" class="trdselection__headings_image">
+                        <h2 class="trdselection__headings_title">Продажа</h2>
+                    </div>
+                    <p class="trdselection__description">Широкий ассортимент моделей</p>
+                </div>
+                <div class="mainblock__tradeselections_trdselection">
+                    <div class="trdselection__headings">
+                        <img src="img/likeicon.svg" alt="" class="trdselection__headings_image">
+                        <h2 class="trdselection__headings_title">Скидки</h2>
+                    </div>
+                    <p class="trdselection__description">Невообразимо низкие цены</p>
+                </div>
+                <div class="mainblock__tradeselections_trdselection">
+                    <div class="trdselection__headings">
+                        <img src="img/gifticon.svg" alt="" class="trdselection__headings_image">
+                        <h2 class="trdselection__headings_title">Акции</h2>
+                    </div>
+                    <p class="trdselection__description">Широкий ассортимент моделей</p>
+                </div>
+
+                <section class="generalcontainer__mainblock_prodsection">
+                    <h3 class="mainblock__prodsection_title">Новинки</h3>
+                    <div class="mainblock__prodsection_itemscontainer">
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-new">New</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-new">New</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-new">New</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-new">New</div>
+                        </article>
+                    </div>
+                </section>
+                <section class="generalcontainer__mainblock_prodsection">
+                    <h3 class="mainblock__prodsection_title">Товары со скидкой</h3>
+                    <div class="mainblock__prodsection_itemscontainer">
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-sale10">-10%</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-sale10">-10%</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-sale10">-10%</div>
+                        </article>
+                        <article class="productcard">
+                            <figure class="productcard__image">
+                                <a href="#" class="productcard__image_imglink">
+                                    <img src="img/BerninaB380.jpg" alt="Bernina B380">
+                                </a>
+                                <figcaption class="productcard__description_desclink">
+                                    <a href="#" title="">Bernina B380</a>
+                                </figcaption>
+                            </figure>
+                            <p class="productcard__price">35 000 р.</p>
+                            <div class="productcard__buttons">
+                                <form method="POST" class="productcard__buttons_addtobasket">
+                                    <button type="submit" name="addtobasket-button" class="buttons__addtobasket">
+                                        <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons__addtobasket_icon">
+                                        <p class="buttons__addtobasket_text">В корзину</p>
+                                    </button>
+                                </form>
+                                <form method="POST" class="productcard__buttons_instantpurchase">
+                                    <button type="submit" name="addtobasket-button" class="buttons_instantpurchase">
+                                        <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons_instantpurchase_icon">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="productcard__label-sale10">-10%</div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <aside class="generalcontainer__asideblock">
+            <div class="asideblock__navtitle">Категории</div>
+            <ul class="asideblock__asidenav">
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Оверлоки" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Оверлоки</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Швейные машины" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Швейные машины</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Вышивальные машины" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Вышивальные машины</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Коверлоки" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Коверлоки</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Вязальные машины" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Вязальные машины</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Запчасти" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Запчасти</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Аксессуары" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Аксессуары</a>
+                </li>
+                <li class="asideblock__asidenav_navpoint">
+                    <img src="img/asidenavicon.svg" alt="Комплектующие" class="asidenav__navpoint_image">
+                    <a href="#" class="asidenav__navpoint_text" title="">Комплектующие</a>
+                </li>
+            </ul>
+            <img src="img/asidebanner1.jpg" alt="" class="asideblock__asidebanner1">
+            <img src="img/asidebanner2.jpg" alt="" class="asideblock__asidebanner2">
+        </aside>
+    </div>
+</header>
+</body>
+</html>
