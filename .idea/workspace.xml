@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a45c2cd-c5fb-4db5-b066-cb6c856fc7fb" name="Default" comment="" />
+    <list default="true" id="7a45c2cd-c5fb-4db5-b066-cb6c856fc7fb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,20 +13,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="356" column="21" lean-forward="false" selection-start-line="356" selection-start-column="21" selection-end-line="356" selection-end-column="21" />
+            <state relative-caret-position="950">
+              <caret line="193" column="65" lean-forward="true" selection-start-line="193" selection-start-column="65" selection-end-line="194" selection-end-column="26" />
               <folding>
-                <element signature="n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#article#1;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#article#2;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#article#3;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#0;n#figure#0;n#article#0;n#div#0;n#section#1;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a#0;n#figure#0;n#article#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,11 +56,55 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userbar__navigation_point</find>
+      <find>userbar__navigation_link</find>
+      <find>mainmenu__menupoint</find>
+      <find>mainblock__prodsection_title</find>
+      <find>mainblock__prodsection_itemscontainer</find>
+      <find>&lt;article class=&quot;productcard&quot;&gt;</find>
+      <find>&lt;figure class=&quot;productcard__figure-b&quot;&gt;</find>
+      <find>&lt;figure class=&quot;productcard__image&quot;&gt;</find>
+      <find>class=&quot;productcard__image_imglink&quot;</find>
+      <find>productcard__description_desclink</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;productcard__image&quot;&gt;</find>
+      <find>alt=&quot;Bernina B380&quot;&gt;</find>
+      <find>&lt;figcaption class=&quot;productcard__description-link&quot;&gt;</find>
+      <find>&lt;a href=&quot;#&quot; title=&quot;&quot;&gt;Bernina B380&lt;/a&gt;</find>
+      <find>&lt;p class=&quot;productcard__price&quot;&gt;35 000 р.&lt;/p&gt;</find>
+      <find>&lt;p class=&quot;buttons__addtobasket_text&quot;&gt;В корзину&lt;/p&gt;</find>
+      <find>&lt;span class=&quot;productcard__price&quot;&gt;35 000 р.&lt;/span&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>userbar-navigation__navigation-point</replace>
+      <replace>userbar-navigation__navigation-link</replace>
+      <replace>nav__item</replace>
+      <replace>prodcards-container__heading</replace>
+      <replace>prodcards-container__cardblock block-prodcards</replace>
+      <replace />
+      <replace>&lt;article class=&quot;block-prodcards__card productcard&quot;&gt;</replace>
+      <replace>&lt;figure class=&quot;productcard__figure-block&quot;&gt;</replace>
+      <replace>class=&quot;productcard__image&quot;</replace>
+      <replace>productcard__description-link</replace>
+      <replace>&lt;a href=&quot;#&quot; class=&quot;productcard__link&quot;&gt;</replace>
+      <replace>alt=&quot;Bernina B380&quot; class=&quot;productcard__image&quot;&gt;</replace>
+      <replace>&lt;figcaption class=&quot;productcard__description&quot;&gt;</replace>
+      <replace>&lt;a href=&quot;#&quot; title=&quot;&quot; class=&quot;productcard__description-link&quot;&gt;Bernina B380&lt;/a&gt;</replace>
+      <replace>&lt;span class=&quot;productcard__price&quot;&gt;35 000 р.&lt;/span&gt;</replace>
+      <replace>&lt;span class=&quot;buttons__addtobasket_text&quot;&gt;В корзину&lt;/span&gt;</replace>
+      <replace>&lt;h4 class=&quot;productcard__price&quot;&gt;35 000 р.&lt;/h4&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -64,11 +116,28 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="592" />
-    <option name="y" value="-20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="871" />
+    <option name="y" value="-17" />
+    <option name="width" value="747" />
+    <option name="height" value="523" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>HTML</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -84,8 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +173,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,12 +200,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527421825908</updated>
-      <workItem from="1527421827793" duration="13995000" />
+      <workItem from="1527421827793" duration="14218000" />
+      <workItem from="1527708945559" duration="8532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13995000" />
+    <option name="totallyTimeSpent" value="22750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -149,24 +219,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20786963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22297297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0131782945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15193799" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26550078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -181,6 +252,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#a#0;n#figure#0;n#article#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -189,18 +270,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/WEB_learning/NTschool/WebProCourse/sewclub_git/index.html">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/index.html</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/styles.css</node>
+            <node x="" y="">img/BerninaB380.jpg</node>
+            <node x="" y="">img/Comparisson.svg</node>
+            <node x="" y="">img/Entrance.svg</node>
+            <node x="" y="">img/Favourites.svg</node>
+            <node x="" y="">img/asidebanner1.jpg</node>
+            <node x="" y="">img/asidebanner2.jpg</node>
+            <node x="" y="">img/asidenavicon.svg</node>
+            <node x="" y="">img/basketicon.svg</node>
+            <node x="" y="">img/cardicon.svg</node>
+            <node x="" y="">img/emailicon.svg</node>
+            <node x="" y="">img/fbicon.svg</node>
+            <node x="" y="">img/gifticon.svg</node>
+            <node x="" y="">img/likeicon.svg</node>
+            <node x="" y="">img/logo.svg</node>
+            <node x="" y="">img/phoneicon.svg</node>
+            <node x="" y="">img/searchicon.svg</node>
+            <node x="" y="">img/twittericon.svg</node>
+            <node x="" y="">img/vkicon.svg</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="269.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/searchicon.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="356" column="21" lean-forward="false" selection-start-line="356" selection-start-column="21" selection-end-line="356" selection-end-column="21" />
+        <state relative-caret-position="950">
+          <caret line="193" column="65" lean-forward="true" selection-start-line="193" selection-start-column="65" selection-end-line="194" selection-end-column="26" />
           <folding>
-            <element signature="n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#1;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#2;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#3;n#div#0;n#section#0;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#figure#0;n#article#0;n#div#0;n#section#1;n#div#1;n#main#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#figure#0;n#article#0;n#div#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
