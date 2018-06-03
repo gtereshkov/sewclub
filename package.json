@@ -1,0 +1,28 @@
+{
+  "name": "sewclub_git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello\" && exit 1",
+    "bs": "browser-sync start --server --files \"*.html,npm run bs*.css\" --no-open --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kempelBLR/sewclub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kempelBLR/sewclub/issues"
+  },
+  "homepage": "https://github.com/kempelBLR/sewclub#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-less": "^3.5.0"
+  }
+}

@@ -8,23 +8,29 @@
 </head>
 <body>
 <header class="site-header">
-    <div class="site-header__userbar">
+    <div class="site-header__userbar color-wrapper">
         <ul class="horizontal-menu userbar-navigation">
             <li class="li-navitem userbar-navigation__item">
                 <a href="#" class="userbar-navigation__link">
-                    <img src="img/Entrance.svg" alt="" class="userbar-navigation__icon">
+                    <svg class="userbar-navigation__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#signin"></use>
+                    </svg>
                     Вход
                 </a>
             </li>
             <li class="li-navitem userbar-navigation__item">
                 <a href="#" class="userbar-navigation__link">
-                    <img src="img/Favourites.svg" alt="" class="userbar-navigation__icon">
+                    <svg class="userbar-navigation__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#heart"></use>
+                    </svg>
                     Избранное
                 </a>
             </li>
-            <li class="li-navitem userbar-navigation__item">
+            <li class="li-navitem userbar-navigation__item noborder">
                 <a href="#" class="userbar-navigation__link">
-                    <img src="img/Comparisson.svg" alt="" class="userbar-navigation__icon">
+                    <svg class="userbar-navigation__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 43.94">
+                        <use xlink:href="img/svg/sprite.svg#compare"></use>
+                    </svg>
                     Сравнение
                 </a>
             </li>
@@ -32,51 +38,67 @@
         <ul class="horizontal-menu userbar-socnetworks">
             <li class="li-navitem userbar-socnetworks__item">
                 <a href="#" class="userbar-socnetworks__link" title="Vkontakte">
-                    <img src="img/vkicon.svg" alt="" class="userbar-socnetworks__icon">
+                    <svg class="userbar-socnetworks__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#vk"></use>
+                    </svg>
                 </a>
             </li>
             <li class="li-navitem userbar-socnetworks__item">
                 <a href="#" class="userbar-socnetworks__link" title="Facebook">
-                    <img src="img/fbicon.svg" alt="" class="userbar-socnetworks__icon">
+                    <svg class="userbar-socnetworks__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#facebook"></use>
+                    </svg>
                 </a>
             </li>
             <li class="li-navitem userbar-socnetworks__item">
                 <a href="#" class="userbar-socnetworks__link" title="Twitter">
-                    <img src="img/twittericon.svg" alt="" class="userbar-socnetworks__icon">
+                    <svg class="userbar-socnetworks__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#twitter"></use>
+                    </svg>
                 </a>
             </li>
         </ul>
     </div>
-    <div class="site-header__midblock">
-        <a class="logo">
-            <img src="img/logo.svg" alt="Logo" class="logo__icon">
+    <div class="site-header__midblock wrapper">
+        <a href="#" class="logo site-header__logo">
+            <svg class="logo__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636.41 454.76">
+                <use xlink:href="img/svg/sprite.svg#logo"></use>
+            </svg>
             <div class="logo__headings headings-logo">
                 <p class="headings-logo__text">SEW-CLUB.BY</p>
-                <p class="headings-logo__text">sewing club Belarus</p>
+                <p class="headings-logo__text_small">sewing club Belarus</p>
             </div>
         </a>
         <div class="interfaces">
             <div class="header-contacts">
                 <address class="header-contacts__item">
-                    <img src="img/phoneicon.svg" alt="Phone" class="header-contacts__icon">
+                    <svg class="header-contacts__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 64">
+                        <use xlink:href="img/svg/sprite.svg#phone"></use>
+                    </svg>
                     <a href="tel:80293332211" title="Phone us" class="header-contacts__link">8(029)333-22-11</a>
                 </address>
                 <address class="header-contacts__item">
-                    <img src="img/emailicon.svg" alt="Email" class="header-contacts__icon">
+                    <svg class="header-contacts__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#email"></use>
+                    </svg>
                     <a href="mailto:info@sewclub.by" title="Email us" class="header-contacts__link">info@sewclub.by</a>
                 </address>
             </div>
             <form method="GET" class="searchform header-searchform">
                 <input type="text" title="Поиск" placeholder="Введите поисковую фразу" name="searchstring" class="header-searchform__input">
                 <button type="submit" name="searchbutton" class="header-searchform__button button">
-                    <img src="img/searchicon.svg" alt="Поиск" class="button__icon">
+                    <svg class="button__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.98 255.04">
+                        <use xlink:href="img/svg/sprite.svg#search"></use>
+                    </svg>
                 </button>
             </form>
         </div>
         <div class="header-basket basket">
             <p class="basket__cost-text">7500 р.</p>
             <a href="#" title="Корзина" class="basket__link">
-                <img src="img/basketicon.svg" alt="">
+                <svg class="basket__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                </svg>
             </a>
             <span class="basket__goodscount">2</span>
         </div>
@@ -93,27 +115,33 @@
     <main class="mainblock generalcontainer__mainblock">
         <div class="slider"></div>
         <div class="selections">
-            <div class="selections__item">
+            <a href="#" class="selections__item">
                 <div class="selections__headings headings-selections">
-                    <img src="img/cardicon.svg" alt="" class="headings-selections__icon headings-selections__icon_blue">
+                    <svg class="headings-selections__icon headings-selections__icon_blue site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 64">
+                        <use xlink:href="img/svg/sprite.svg#sellingcard"></use>
+                    </svg>
                     <h2 class="headings-selections__text">Продажа</h2>
                 </div>
                 <p class="selections__description">Широкий ассортимент моделей</p>
-            </div>
-            <div class="selections__item">
+            </a>
+            <a href="#" class="selections__item">
                 <div class="selections__headings headings-selections">
-                    <img src="img/likeicon.svg" alt="" class="headings-selections__icon headings-selections__icon_azure">
+                    <svg class="headings-selections__icon headings-selections__icon_azure site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#like"></use>
+                    </svg>
                     <h2 class="headings-selections__text">Скидки</h2>
                 </div>
                 <p class="selections__description">Невообразимо низкие цены</p>
-            </div>
-            <div class="selections__item">
+            </a>
+            <a href="#" class="selections__item">
                 <div class="selections__headings headings-selections">
-                    <img src="img/gifticon.svg" alt="" class="headings-selections__icon headings-selections__icon_red">
+                    <svg class="headings-selections__icon headings-selections__icon_red site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/sprite.svg#gift"></use>
+                    </svg>
                     <h2 class="headings-selections__text">Акции</h2>
                 </div>
                 <p class="selections__description">Широкий ассортимент моделей</p>
-            </div>
+            </a>
         </div>
         <section class="prodcards-container">
             <h3 class="prodcards-container__heading">Новинки</h3>
@@ -131,13 +159,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -156,13 +188,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -181,13 +217,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -206,13 +246,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -236,13 +280,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -261,13 +309,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -286,13 +338,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -311,13 +367,17 @@
                     <div class="productcard__buttons buttons-productcard">
                         <form method="POST" class="buttons-productcard__form-addtobasket">
                             <button type="submit" name="addtobasket-button" class="buttons-productcard__button-addtobasket">
-                                <img src="img/basketicon.svg" alt="Добавить в корзину" class="buttons-productcard__addtobasket-icon">
+                                <svg class="buttons-productcard__addtobasket-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59 64">
+                                    <use xlink:href="img/svg/sprite.svg#shoppingcart"></use>
+                                </svg>
                                 <span class="buttons-productcard__addtobasket-text">В корзину</span>
                             </button>
                         </form>
                         <form method="POST" class="buttons-productcard__form-instantpurchase">
-                            <button type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
-                                <img src="img/basketicon.svg" alt="Моментальная покупка" class="buttons-productcard__instantpurchase-icon">
+                            <button title="Перейти к оплате" type="submit" name="addtobasket-button" class="buttons-productcard__button-instantpurchase">
+                                <svg class="buttons-productcard__instantpurchase-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 64">
+                                    <use xlink:href="img/svg/sprite.svg#lighting"></use>
+                                </svg>
                             </button>
                         </form>
                     </div>
@@ -331,35 +391,51 @@
             <div class="asideblock__navtitle">Категории</div>
             <ul class="asideblock__asidenav vertical__menu">
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Оверлоки" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 994.08 990.24">
+                        <use xlink:href="img/svg/sprite.svg#overlock"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Оверлоки</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Швейные машины" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Швейные машины</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Вышивальные машины" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Вышивальные машины</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Коверлоки" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Коверлоки</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Вязальные машины" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Вязальные машины</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Запчасти" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Запчасти</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Аксессуары" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <use xlink:href="img/svg/sprite.svg#accessories"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Аксессуары</a>
                 </li>
                 <li class="li-navitem asideblock__navpoint">
-                    <img src="img/svg/asidenavicon.svg" alt="Комплектующие" class="asidenav__navpoint-icon">
+                    <svg class="asidenav__navpoint-icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.85 213.15">
+                        <use xlink:href="img/svg/sprite.svg#sewingmachine"></use>
+                    </svg>
                     <a href="#" class="asidenav__navpoint-text" title="">Комплектующие</a>
                 </li>
             </ul>
@@ -369,8 +445,10 @@
     </aside>
 </div>
 <footer class="footerblock">
-    <a class="logo">
-        <img src="img/logo.svg" alt="Logo" class="logo__icon">
+    <a href="#" class="logo footerblock__logo">
+        <svg class="logo__icon site-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 636.41 454.76">
+            <use xlink:href="img/svg/sprite.svg#logo"></use>
+        </svg>
         <div class="logo__headings headings-logo">
             <p class="headings-logo__text">SEW-CLUB.BY</p>
             <p class="headings-logo__text">sewing club Belarus</p>
