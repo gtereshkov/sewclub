@@ -167,8 +167,9 @@ a {
   border-right: 1px solid black;
 }
 .userbar-navigation__icon {
-  height: 16px;
+  height: 18px;
   width: 13px;
+  vertical-align: middle;
 }
 .userbar-socnetworks__item {
   padding-left: 35px;
