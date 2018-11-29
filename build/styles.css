@@ -154,6 +154,34 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.site-header__logo {
+  width: 25%;
+}
+.site-header__midblock {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__mainmenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #182e53;
+}
+.site-header__mainmenu .nav__item {
+  font-size: 1.125rem;
+  font-family: 'Roboto Regular', sans-serif;
+  border-left: 1px solid #ffffff;
+  flex-grow: 1;
+  display: block;
+  padding: 0 40px;
+  color: #ffffff;
+}
 .userbar-navigation__item {
   padding: 0 25px;
   display: flex;
@@ -177,16 +205,6 @@ a {
 .userbar-socnetworks__icon {
   height: 23px;
   width: 25px;
-}
-.site-header__midblock {
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  justify-content: space-between;
-  align-items: center;
-}
-.site-header__logo {
-  width: 25%;
 }
 .logo__icon,
 .header-contacts__icon,
