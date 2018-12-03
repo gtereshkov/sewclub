@@ -97,6 +97,9 @@ main {
 html {
   overflow-x: hidden;
 }
+body {
+  font-size: 16px;
+}
 a {
   text-decoration: none;
   color: #000000;
@@ -146,6 +149,9 @@ a {
   height: 75px;
   width: 92px;
   margin-right: 5px;
+}
+.site-header {
+  margin-bottom: 25px;
 }
 .site-header__userbar {
   background-color: #d1d1d1;
@@ -286,4 +292,42 @@ a {
 }
 .asidenav__navpoint-icon {
   width: 1em;
+}
+.generalcontainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.asideblock {
+  width: 23%;
+}
+.asideblock__nav {
+  border: 1px solid #ee6c48;
+  min-height: 100px;
+  overflow: auto;
+}
+.asideblock__navtitle {
+  font-size: 1.25rem;
+  padding: 15px 15px 15px 30px;
+  color: #ffffff;
+  background-color: #ee6c48;
+  align-items: center;
+  font-family: Verdana;
+}
+.asideblock__navpoint:not(:last-child) {
+  border-bottom: 1px solid #ee6c48;
+}
+.asideblock__navpoint {
+  background-color: #f4f4f4;
+  padding: 5px 15px;
+}
+.asidenav__navpoint-text {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  color: #ee6c48;
+  font-family: Verdana;
+}
+.asidenav__navpoint-icon {
+  margin-right: 10px;
 }

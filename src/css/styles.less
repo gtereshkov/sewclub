@@ -6,3 +6,48 @@
 .asidenav__navpoint-icon {
   width: 1em;
 }
+
+.generalcontainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.asideblock {
+  width: 23%;
+  &__nav {
+    border: 1px solid @accent-color;
+    min-height: 100px;
+    overflow: auto;
+  }
+  &__navtitle {
+    font-size: 1.25rem;
+    padding: 15px 15px 15px 30px;
+    color: @accent-text-color;
+    background-color: @accent-color;
+    align-items: center;
+    font-family: Verdana;
+  }
+  &__navpoint:not(:last-child) {
+    border-bottom: 1px solid @accent-color;
+  }
+  &__navpoint {
+    background-color: @light-gray;
+    padding: 5px 15px;
+  }
+}
+
+.asidenav {
+  &__navpoint{
+    &-text {
+      display: flex;
+      align-items: center;
+      padding: 13px;
+      color: @accent-color;
+      font-family: Verdana;
+    }
+    &-icon {
+      margin-right: 10px;
+    }
+  }
+}
