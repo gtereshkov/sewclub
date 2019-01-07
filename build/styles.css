@@ -98,7 +98,11 @@ html {
   overflow-x: hidden;
 }
 body {
+  font-family: 'Verdana', sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
 }
 a {
   text-decoration: none;
@@ -303,7 +307,7 @@ a {
 }
 .slider {
   border: 1px solid #d1d1d1;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 .slider__image {
   max-width: 100%;
@@ -313,11 +317,11 @@ a {
 .selections {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .selections__item {
-  border: 1px solid black;
-  padding: 15px 10px;
+  border: 1px solid #d1d1d1;
+  padding: 13px 10px;
   width: 32%;
 }
 .selections__headings {
@@ -325,20 +329,56 @@ a {
   flex-direction: row;
   align-items: center;
 }
-.selections__title {
+.selections__title_blue,
+.selections__title_azure,
+.selections__title_red {
   font-family: Verdana, serif;
   font-size: 30px;
   margin-left: 5px;
 }
+.selections__title_blue,
 .selections__icon_blue {
-  height: 30px;
-  width: 30px;
+  color: #182e53;
+}
+.selections__title_azure,
+.selections__icon_azure {
+  color: #44aae3;
+}
+.selections__title_red,
+.selections__icon_red {
+  color: #a23003;
+}
+.selections__icon_blue,
+.selections__icon_azure,
+.selections__icon_red {
+  height: 25px;
+  width: 25px;
+}
+.prodcards-container__heading {
+  font-size: 22px;
+  border-bottom: 1px solid #d1d1d1;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.prodcards-container__cardblock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.prodcards-container .productcard {
+  border: 1px solid #cecece;
+  width: 23%;
+  padding: 10px;
+}
+.prodcards-container .productcard__link > img {
+  display: block;
+  width: 100%;
 }
 .asideblock {
   width: 23%;
 }
 .asideblock__nav {
-  border: 1px solid #ee6c48;
+  border: 1px solid #cecece;
   min-height: 100px;
   overflow: auto;
 }
@@ -351,11 +391,11 @@ a {
   font-family: Verdana, serif;
 }
 .asideblock__navpoint:not(:last-child) {
-  border-bottom: 1px solid #ee6c48;
+  border-bottom: 1px solid #cecece;
 }
 .asideblock__navpoint {
   background-color: #f4f4f4;
-  padding: 5px 15px;
+  padding: 1px 15px;
 }
 .asidenav__navpoint-text {
   display: flex;
