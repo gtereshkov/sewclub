@@ -74,11 +74,24 @@
   }
   & .productcard {
     border: 1px solid @medium-gray;
-    width: 23%;
+    width: 24.8%;
     padding: 10px;
+    &__figure-block {
+      margin: 0 auto;
+    }
     &__link>img {
+      max-width: 100%;
       display: block;
-      width: 100%;
+    }
+    &__description> {
+      margin: 10px 0;
+    }
+    &__description>a:hover {
+      text-decoration: underline;
+      color: @primary-color;
+    }
+    &__summary-block {
+      font-size: 13px;
     }
    }
 }

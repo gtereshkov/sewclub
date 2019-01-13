@@ -367,12 +367,25 @@ a {
 }
 .prodcards-container .productcard {
   border: 1px solid #cecece;
-  width: 23%;
+  width: 24.8%;
   padding: 10px;
 }
+.prodcards-container .productcard__figure-block {
+  margin: 0 auto;
+}
 .prodcards-container .productcard__link > img {
+  max-width: 100%;
   display: block;
-  width: 100%;
+}
+.prodcards-container .productcard__description {
+  margin: 10px 0;
+}
+.prodcards-container .productcard__description > a:hover {
+  text-decoration: underline;
+  color: #182e53;
+}
+.prodcards-container .productcard__summary-block {
+  font-size: 13px;
 }
 .asideblock {
   width: 23%;
