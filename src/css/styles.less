@@ -61,6 +61,7 @@
 }
 
 .prodcards-container {
+  font-size: 13px;
   &__heading {
     font-size: 22px;
     border-bottom: 1px solid @third-color2;
@@ -74,24 +75,118 @@
   }
   & .productcard {
     border: 1px solid @medium-gray;
-    width: 24.8%;
+    width: 24.3%;
     padding: 10px;
+    position: relative;
     &__figure-block {
       margin: 0 auto;
     }
     &__link>img {
       max-width: 100%;
       display: block;
+      margin: auto;
     }
     &__description> {
       margin: 10px 0;
+      font-size: 16px;
+    }
+    &__description {
+      text-decoration: underline;
     }
     &__description>a:hover {
-      text-decoration: underline;
+      text-decoration: none;
       color: @primary-color;
     }
-    &__summary-block {
-      font-size: 13px;
+    &__price {
+      margin-top: 10px;
+    }
+    &__price>span {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    &__instock {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    &__stock-text {
+      margin-left: 5px;
+    }
+    &__stock-icon_instock {
+      fill: rgb(64,199,70);
+      width: 20px;
+      height: 20px;
+    }
+    &__stock-icon_outofstock {
+      fill: @dark-gray;
+      width: 20px;
+      height: 20px;
+    }
+    &__buttons {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__addtobasket {
+      width: 70%;
+      &-btn {
+        width: 100%;
+        font-weight: 700;
+        font-size: 16px;
+        color: @accent-text-color;
+        text-decoration: none;
+        padding: .6em 1em calc(.6em + 0.2px);
+        border-radius: 3px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+        align-items: center;
+      }
+      &-btn:hover {
+        background: rgb(53, 167, 110);
+        cursor: pointer;
+      }
+      &-btn:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+      }
+    }
+    &__instantpurchase {
+      width: 25%;
+      &-btn{
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        background-color: #fff;
+      }
+      &-btn:hover {
+        background: rgb(53, 167, 110);
+        cursor: pointer;
+      }
+      &-btn:hover .productcard__instantpurchase-icon {
+        fill: @accent-text-color;
+      }
+      &-icon {
+        height: 100%;
+        fill: rgb(33,147,90);
+      }
+    }
+    &__label {
+      background: url('img/b_price.png') no-repeat 0 0;
+      width: 95px;
+      height: 30px;
+      right: -27px;
+      top: 4px;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      position: absolute;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
    }
 }
