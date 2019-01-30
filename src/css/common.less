@@ -12,7 +12,7 @@ body {
   line-height: @line_height;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000000;
 }
@@ -58,6 +58,7 @@ a{
   left: -50vw;
 }
 
+
 .logo {
   display: flex;
   width: 25%;
@@ -67,4 +68,22 @@ a{
     width: 92px;
     margin-right: 5px;
   }
+  &__text_small {
+    font-size: 14px;
+    font-family: 'Roboto Regular';
+  }
+}
+
+.ushi::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100vw;
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  margin: auto;
+  left: -50vw;
+  right: -50vw;
 }
