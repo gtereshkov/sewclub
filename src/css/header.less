@@ -1,10 +1,10 @@
 //  === userbar
 
-.site-header {
+.siteheader {
   margin-bottom: 25px;
   &__userbar {
     background-color: @third-color2;
-    min-height: 40px;
+    min-height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,30 +34,51 @@
       color: @accent-text-color;
     }
   }
-}
-
-.userbar-navigation {
-  &__item {
-    padding: 0 25px;
+  &__contactus {
+    height: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    cursor: pointer;
+    border-left: 2px solid #c1c1c1;
+    border-right: 2px solid #c1c1c1;
+    padding: 0 15px 0 15px;
+    transition: 0.3s;
   }
-
-  &__item:first-child {
-    padding-left: 0;
+  &__contactus:hover {
+    background-color: @dark-gray;
+    color: @accent-text-color;
   }
-
-  &__item:not(.noborder) {
-    border-right: 1px solid black;
+   &__contacttext {
+    font-size: 14px;
+    margin-left: 10px;
   }
-
-  &__icon {
-    height: 18px;
-    width: 13px;
-    vertical-align: middle;
+  &__contacticon {
+    width: 10px;
   }
 }
+
+//.userbar-navigation {
+//  &__item {
+//    padding: 0 25px;
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-between;
+//  }
+//
+//  &__item:first-child {
+//    padding-left: 0;
+//  }
+//
+//  &__item:not(.noborder) {
+//    border-right: 1px solid black;
+//  }
+//
+//  &__icon {
+//    height: 18px;
+//    width: 13px;
+//    vertical-align: middle;
+//  }
+//}
 
 .userbar-socnetworks {
   &__item {
